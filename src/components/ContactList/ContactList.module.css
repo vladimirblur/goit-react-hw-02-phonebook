@@ -1,0 +1,9 @@
+.item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}

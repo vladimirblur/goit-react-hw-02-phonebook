@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input {
+  height: 25px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}

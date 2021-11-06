@@ -1,0 +1,18 @@
+.Form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 600px;
+  padding: 30px;
+  border: 1px solid black;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.input {
+  height: 25px;
+  width: 250px;
+  margin-bottom: 15px;
+}

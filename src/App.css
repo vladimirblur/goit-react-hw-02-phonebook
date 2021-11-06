@@ -1,0 +1,30 @@
+:root {
+  --animation: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  border-radius: 4px;
+  transition: color 250ms var(--animation),
+    background-color 250ms var(--animation), box-shadow 250ms var(--animation);
+}
+
+.button:active {
+  background-color: blue;
+  color: #fff;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
